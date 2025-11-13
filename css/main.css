@@ -1,12 +1,42 @@
+:root {
+  --font-sans-serif: Inter, sans-serif;
+  --font-serif: Fraunces, serif;
+  --green: #7fcd80;
+  --orange: #ff6138;
+  --red: #eb5f54;
+  --blue: #1863dc;
+  --black: #333333;
+  --light-gray: #0000001a;
+  --dark-gray: #00000099;
+  --gray: #00000033;
+  --light-yellow: #fffced;
+  --white: #ffffff;
+}
 
 html {
   box-sizing: border-box;
-  font-size: 16px;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+body {
+  font-family: var(--font-sans-serif);
+  color: var(--dark-gray);
+}
+
+img {
+  width: 50%;
+}
+
+
+
+
+
+
+
+
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
