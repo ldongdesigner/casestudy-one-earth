@@ -43,8 +43,6 @@ h1 {
 h2 {
   font-size: 2.1rem;
   font-weight: 600;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
 }
 
 h4 {
@@ -98,6 +96,11 @@ img {
   font-size: 1rem;
 }
 
+.hero h2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .hero__grid-right {
   align-self: end;
 }
@@ -117,6 +120,62 @@ img {
 .button--orange {
   background: var(--orange);
   border-radius: 0.5rem;
+}
+
+.introduction--solution {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5rem;
+}
+
+.images--solution {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 2rem;
+}
+
+.images--solutions h2 {
+  font-size: 1.5rem;
+}
+
+.roadblock {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 5rem;
+  padding: 2rem;
+}
+
+.roadblock__grid-right {
+  align-self: end;
+}
+
+.roadblock__grid-right h5, a {
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.introduction--tools {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2rem;
+}
+
+.card--tools button {
+  color: var(--dark-gray);
+  border: 1px solid var(--dark-gray);
+}
+
+.card--tools {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 5rem;
+  row-gap: 5rem;
+}
+
+.card {
+  border: 1px solid var(--dark-gray);
+  padding: 10px;
 }
 .component__img {
   display: block;
