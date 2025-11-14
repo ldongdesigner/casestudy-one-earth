@@ -27,6 +27,7 @@ body {
   font-size: 0.9rem;
   line-height: 1.35;
   font-weight: 600;
+  max-width: 1500px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -47,6 +48,13 @@ h4 {
   font-weight: 600;
 }
 
+img {
+  display: block;
+}
+
+.component__img {
+  display: block;
+}
 .impact {
    width: 35%;
    margin-left: auto;
