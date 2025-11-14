@@ -25,7 +25,6 @@ body {
   font-family: var(--font-sans-serif);
   color: var(--dark-gray);
   font-size: 0.9rem;
-  margin: 0rem 30rem 0rem 1rem;
   line-height: 1.35;
   font-weight: 600;
 }
@@ -49,5 +48,9 @@ h4 {
 }
 
 .impact {
-   margin: 0rem 1rem 0rem 18rem;
+   width: 35%;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: left;
+   letter-spacing: -0.5px;
 }
