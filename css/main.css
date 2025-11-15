@@ -177,9 +177,11 @@ img {
   border: 1px solid var(--dark-gray);
   padding: 10px;
 }
+
 .component__img {
   display: block;
 }
+
 .impact {
    width: 35%;
    margin-left: auto;
