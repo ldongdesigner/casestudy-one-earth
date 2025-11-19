@@ -178,6 +178,27 @@ img {
   padding: 10px;
 }
 
+.card--network {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 5rem;
+  row-gap: 5rem;
+}
+.card-1 {
+  padding: 10px;
+}
+blockquote {
+  margin: 0;
+  font-style: italic;
+}
+.network button {
+  color: var(--dark-gray);
+  border: 1px solid var(--dark-gray);
+  display: block;
+  margin: 0 auto;
+
+}
+
 .component__img {
   display: block;
 }
