@@ -196,7 +196,20 @@ blockquote {
   border: 1px solid var(--dark-gray);
   display: block;
   margin: 0 auto;
+}
 
+.card--prefooter {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 5rem;
+  row-gap: 5rem;
+}
+.prefooter button {
+  color: var(--dark-gray);
+  border: 1px solid var(--dark-gray);
+  display: inline-block;
+  margin: 0.1rem;
+  padding: 0.12rem;
 }
 
 .component__img {
