@@ -116,6 +116,11 @@ img {
   margin: 0.5rem;
   font-size: 1.2rem;
 }
+.button a {
+  color: var(--white);
+  text-decoration: none;
+}
+
 
 .button--orange {
   background: var(--orange);
@@ -127,15 +132,32 @@ img {
   grid-template-columns: 1fr 1fr;
   padding: 5rem;
 }
-
 .images--solution {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 2rem;
 }
-
 .images--solutions h2 {
   font-size: 1.5rem;
+}
+.solution_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.solution_button button {
+   border: 1px solid var(--dark-gray);
+  border-radius: 1rem;
+  padding: 0.8rem 1rem;
+  text-align: center;
+  background: transparent;
+  margin: 0.5rem;
+  font-size: 1.8rem;
+}
+.solution button a {
+  color: var(--dark-gray);
+  text-decoration: none;
+  font-size: 1.6rem;
 }
 
 .roadblock {
@@ -144,17 +166,14 @@ img {
   column-gap: 5rem;
   padding: 2rem;
 }
-
 .roadblock__grid-right {
   align-self: end;
 }
-
 .roadblock__grid-right h5, a {
   font-family: var(--font-serif);
   font-size: 1rem;
   margin-bottom: 1rem;
 }
-
 .introduction--tools {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -165,7 +184,11 @@ img {
   color: var(--dark-gray);
   border: 1px solid var(--dark-gray);
 }
-
+.card--tools button a {
+  color: var(--dark-gray);
+  text-decoration: none;
+  font-size: 1.2rem;
+}
 .card--tools {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -179,14 +202,24 @@ img {
 }
 
 .impact {
-   width: 35%;
-   margin-left: auto;
-   margin-right: auto;
+   margin: 0 2rem;
    text-align: left;
    letter-spacing: -0.5px;
    color: var(--dark-gray);
 }
-
+.introduction--impact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.impact table {
+  width: 100%;
+  table-layout: fixed;
+}
+.impact button a {
+  color: var(--dark-gray);
+  font-size: 1.6rem;
+  text-decoration: none;
+}
 .card--network {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -206,7 +239,11 @@ blockquote {
   display: block;
   margin: 0 auto;
 }
-
+.network button a {
+  color: var(--dark-gray);
+  text-decoration: none;
+  font-size: 1.2rem;
+}
 
 .card--prefooter {
   display: grid;
@@ -220,6 +257,11 @@ blockquote {
   display: inline-block;
   margin: 0.1rem;
   padding: 0.12rem;
+}
+.prefooter button a {
+  color: var(--dark-gray);
+  text-decoration: none;
+  font-size: 0.8rem;
 }
 
 .introduction--footer {
