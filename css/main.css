@@ -145,14 +145,16 @@ img {
   justify-content: center;
   align-items: center;
 }
-.solution_button button {
-   border: 1px solid var(--dark-gray);
+.solution_button {
+  border: 1px solid var(--dark-gray);
   border-radius: 1rem;
   padding: 0.8rem 1rem;
   text-align: center;
+  text-decoration: none;
   background: transparent;
-  margin: 0.5rem;
+  color: var(--dark-gray);
   font-size: 1.8rem;
+  margin: 0 20rem;
 }
 .solution button a {
   color: var(--dark-gray);
@@ -180,11 +182,14 @@ img {
   padding: 2rem;
 }
 
-.card--tools button {
+.card--button {
   color: var(--dark-gray);
   border: 1px solid var(--dark-gray);
+  border-radius: 1rem;
+  padding: 0.8rem 1rem;
+
 }
-.card--tools button a {
+.card--button a {
   color: var(--dark-gray);
   text-decoration: none;
   font-size: 1.2rem;
@@ -251,7 +256,7 @@ blockquote {
   column-gap: 5rem;
   row-gap: 5rem;
 }
-.prefooter button {
+.subbutton {
   color: var(--dark-gray);
   border: 1px solid var(--dark-gray);
   display: inline-block;
