@@ -178,6 +178,15 @@ img {
   padding: 10px;
 }
 
+.impact {
+   width: 35%;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: left;
+   letter-spacing: -0.5px;
+   color: var(--dark-gray);
+}
+
 .card--network {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -198,6 +207,7 @@ blockquote {
   margin: 0 auto;
 }
 
+
 .card--prefooter {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -212,15 +222,54 @@ blockquote {
   padding: 0.12rem;
 }
 
-.component__img {
-  display: block;
+.introduction--footer {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  padding: 2rem;
+  margin: 0 5rem;
+}
+.card--footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 5rem;
+  row-gap: 5rem;
+}
+.card-3 {
+  text-align: left;
+}
+.list__link a {
+  text-decoration: none;
+}
+.list__link ul {
+  list-style-type: none;
+  font-family: var(--font-sans-serif);
+  font-size: 0.2rem;
+  line-height: 1.35;
+  font-weight: 300;
+}
+.footer h5 {
+  font-size: 1rem;
+  font-weight: 600;
 }
 
-.impact {
-   width: 35%;
-   margin-left: auto;
-   margin-right: auto;
-   text-align: left;
-   letter-spacing: -0.5px;
-   color: var(--dark-gray);
+.footer__nav-list {
+  list-style: none;
+  padding: 0rem 2rem;
+  display: flex;
+  font-family: var(--font-sans-serif);
+  font-size: 0.6rem;
+  font-weight: 400;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__nav-list a {
+  text-decoration: none;
+  padding: 0rem;
+  font-family: var(--font-sans-serif);
+  font-size: 0.6rem;
+}
+
+.component__img {
+  display: block;
 }
