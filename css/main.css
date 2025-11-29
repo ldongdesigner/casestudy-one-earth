@@ -27,6 +27,7 @@ body {
   line-height: 1.35;
   font-weight: 600;
   max-width: 1500px;
+  background-color: var(--light-yellow);
 }
 
 h1, h2, h3, h4, h5 {
@@ -137,6 +138,8 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 2rem;
+  min-height: 600px;
+  color: var(--light-yellow);
 }
 .images--solutions h2 {
   font-size: 1.5rem;
@@ -162,12 +165,31 @@ img {
   text-decoration: none;
   font-size: 1.6rem;
 }
+.energy-transition {
+  background-image: url(../img/windmill.png) ;
+  background-size: cover;
+  background-position: center;
+}
+.nature-conservation {
+  background-image: url(../img/Lands-and-Oceans.png) ;
+  background-size: cover;
+  background-position: center;
+}
+.regenerative {
+  background-image: url(../img/ivan-bandura-square.png) ;
+  background-size: cover;
+  background-position: center;
+}
 
 .roadblock {
   display: grid;
+  background-image: url(../img/lines-green.png) ;
   grid-template-columns: 2fr 1fr;
   column-gap: 5rem;
   padding: 2rem;
+}
+.roadblock__grid-left {
+  background-color: var(--green);
 }
 .roadblock__grid-right {
   align-self: end;
@@ -182,7 +204,6 @@ img {
   grid-template-columns: 1fr 1fr;
   padding: 2rem;
 }
-
 .card--button {
   color: var(--dark-gray);
   border: 1px solid var(--dark-gray);
@@ -198,17 +219,20 @@ img {
 .card--tools {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  column-gap: 5rem;
-  row-gap: 5rem;
+  column-gap: 2rem;
+  row-gap: 2rem;
 }
-
-.card {
+.tool {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
   border: 1px solid var(--dark-gray);
-  padding: 10px;
+  padding: 2rem;
+  column-gap: 5rem;
 }
 
 .impact {
-   margin: 0 2rem;
+  background-image: url(../img/lines-blue.avif); 
+  margin: 0 2rem;
    text-align: left;
    letter-spacing: -0.5px;
    color: var(--dark-gray);
@@ -256,6 +280,7 @@ blockquote {
   grid-template-columns: repeat(3, 1fr);
   column-gap: 5rem;
   row-gap: 5rem;
+  background: linear-gradient(90deg, var(--green), var(--blue), var(--orange));
 }
 .subbutton {
   color: var(--dark-gray);
@@ -270,11 +295,22 @@ blockquote {
   font-size: 0.8rem;
 }
 
+.footer {
+  position: relative;
+  overflow: hidden;
+  color: var(--white);
+  background-image: url(../img/forest-research.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 .introduction--footer {
   display: grid;
   grid-template-columns: 1fr 1.2fr;
   padding: 2rem;
   margin: 0 5rem;
+  position: relative;
+   color: var(--white);
 }
 .card--footer {
   display: grid;
@@ -287,6 +323,7 @@ blockquote {
 }
 .list__link a {
   text-decoration: none;
+  color: var(--white);
 }
 .list__link ul {
   list-style-type: none;
@@ -294,6 +331,7 @@ blockquote {
   font-size: 0.2rem;
   line-height: 1.35;
   font-weight: 300;
+  color: var(--white);
 }
 .footer h5 {
   font-size: 1rem;
@@ -316,6 +354,7 @@ blockquote {
   padding: 0rem;
   font-family: var(--font-sans-serif);
   font-size: 0.6rem;
+  color: var(--white);
 }
 
 .component__img {
