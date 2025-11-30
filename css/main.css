@@ -56,12 +56,12 @@ img {
   display: block;
 }
 
+/** This is Header section **/
 .header-hero {
   background-image: url(../img/One-Earth-lands-and-ocean.png);
   max-width: 100%;
   color: var(--light-yellow);
 }
-
 
 .header {
   display: flex;
@@ -123,12 +123,12 @@ img {
   text-decoration: none;
 }
 
-
 .button--orange {
   background: var(--orange);
   border-radius: 0.5rem;
 }
 
+/** This is the Solution section **/
 .introduction--solution {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -181,6 +181,7 @@ img {
   background-position: center;
 }
 
+/** This is the Roadblock section **/
 .roadblock {
   display: grid;
   background-image: url(../img/lines-green.png) ;
@@ -199,6 +200,8 @@ img {
   font-size: 1rem;
   margin-bottom: 1rem;
 }
+
+/** This is the Tools section **/
 .introduction--tools {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -230,6 +233,7 @@ img {
   column-gap: 5rem;
 }
 
+/** This is the Impact section **/
 .impact {
   background-image: url(../img/lines-blue.avif); 
   margin: 0 2rem;
@@ -250,6 +254,8 @@ img {
   font-size: 1.6rem;
   text-decoration: none;
 }
+
+/** This is the Network section **/
 .card--network {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -275,6 +281,7 @@ blockquote {
   font-size: 1.2rem;
 }
 
+/** This is Prefooter section **/
 .card--prefooter {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -295,6 +302,7 @@ blockquote {
   font-size: 0.8rem;
 }
 
+/** This is Footer section **/
 .footer {
   position: relative;
   overflow: hidden;
