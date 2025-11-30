@@ -23,9 +23,9 @@ html {
 
 body {
   font-family: var(--font-sans-serif);
-  font-size: 0.9rem;
-  line-height: 1.35;
-  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.2;
+  font-weight: 400;
   max-width: 1500px;
   background-color: var(--light-yellow);
 }
@@ -37,13 +37,13 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 60px;
   font-weight: 600;
 }
 
 h2 {
-  font-size: 2.1rem;
-  font-weight: 600;
+  font-size: 25px;
+  font-weight: 500;
 }
 
 h4 {
@@ -70,7 +70,7 @@ img {
 }
 
 .header img {
-  margin: 0 0 0 15rem;
+  margin: 0 0 0 2rem;
   fill: var(--white);
 }
 
@@ -79,7 +79,7 @@ img {
   padding: 0;
   display: flex;
   font-family: var(--font-serif);
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .header__nav-list a {
@@ -96,6 +96,7 @@ img {
   column-gap: 5rem;
   padding: 5rem;
   font-size: 1rem;
+  max-width: 130rem;
 }
 
 .hero h2 {
@@ -109,14 +110,14 @@ img {
 
 .button {
   display: inline-block;
-  border: 1px solid var(--light-yellow);
+  border: 1.5px solid var(--light-yellow);
   border-radius: 1rem;
-  padding: 0.8rem 1rem;
+  padding: 10px 15px;
   text-decoration: none;
   color: var(--white);
   background: transparent;
-  margin: 0.5rem;
-  font-size: 1.2rem;
+  margin:0 10px;
+  font-size: 18px;
 }
 .button a {
   color: var(--white);
