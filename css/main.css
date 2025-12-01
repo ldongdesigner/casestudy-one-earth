@@ -25,7 +25,7 @@ body {
   font-family: var(--font-sans-serif);
   font-size: 1rem;
   line-height: 1.2;
-  font-weight: 300;
+  font-weight: 400;
   max-width: 1500px;
   background-color: var(--light-yellow);
 }
@@ -177,6 +177,8 @@ img {
   grid-template-columns: 2fr 1fr;
   column-gap: 5rem;
   padding: 2rem;
+  border-bottom: 1px solid var(--gray);
+  border-top: 1px solid var(--gray);
 }
 .roadblock__grid-left {
   background-color: var(--green);
@@ -188,7 +190,7 @@ img {
 .roadblock__grid-right h5, a {
   font-family: var(--font-serif);
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 500;
   margin-bottom: 1rem;
 }
 
