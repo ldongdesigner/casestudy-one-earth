@@ -199,24 +199,14 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 2rem;
-}
-.card--button {
-  color: var(--dark-gray);
-  border: 1px solid var(--dark-gray);
-  border-radius: 1rem;
-  padding: 0.8rem 1rem;
-
-}
-.card--button a {
-  color: var(--dark-gray);
-  text-decoration: none;
-  font-size: 1.2rem;
+  margin: 1.5rem 0;
 }
 .card--tools {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 2rem;
   row-gap: 2rem;
+  padding: 0 2rem 2rem 2rem;
 }
 .tool {
   display: grid;
@@ -224,6 +214,19 @@ img {
   border: 1px solid var(--dark-gray);
   padding: 2rem;
   column-gap: 5rem;
+}
+.card--button {
+  display: block;
+  width: fit-content;
+  padding: 0.5rem;
+  margin: 0;
+  border: 1px solid var(--dark-gray);
+  border-radius: 1rem;
+  text-decoration: none;
+  background: transparent;
+  color: var(--dark-gray);
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 /** This is the Impact section **/
