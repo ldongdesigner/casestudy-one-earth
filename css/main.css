@@ -232,23 +232,26 @@ img {
 /** This is the Impact section **/
 .impact {
   background-image: url(../img/lines-blue.avif); 
-  margin: 0 2rem;
-   text-align: left;
-   letter-spacing: -0.5px;
-   color: var(--dark-gray);
+  padding: 3rem 2rem 0rem 2rem;
+  text-align: left;
+  letter-spacing: -0.5px;
+  border-bottom: 1px solid var(--gray);
+  border-top: 1px solid var(--gray);
 }
 .introduction--impact {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-bottom: 1.5rem;
 }
-.impact table {
+.table--impact table {
   width: 100%;
   table-layout: fixed;
 }
-.impact button a {
-  color: var(--dark-gray);
-  font-size: 1.6rem;
-  text-decoration: none;
+.table--impact table tr:nth-child(-n+3) td {
+  border-bottom: 1.5px solid var(--gray);
+}
+.table--impact table td {
+  padding: 8px; 
 }
 
 /** This is the Network section **/
