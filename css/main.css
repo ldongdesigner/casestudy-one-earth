@@ -255,6 +255,10 @@ img {
 }
 
 /** This is the Network section **/
+.network {
+  padding: 4rem 2rem 0rem 2rem;
+  font-size: 0.9rem;
+}
 .card--network {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -268,17 +272,6 @@ blockquote {
   margin: 0;
   font-style: italic;
 }
-.network button {
-  color: var(--dark-gray);
-  border: 1px solid var(--dark-gray);
-  display: block;
-  margin: 0 auto;
-}
-.network button a {
-  color: var(--dark-gray);
-  text-decoration: none;
-  font-size: 1.2rem;
-}
 
 /** This is Prefooter section **/
 .card--prefooter {
@@ -287,25 +280,27 @@ blockquote {
   column-gap: 5rem;
   row-gap: 5rem;
   background: linear-gradient(90deg, var(--green), var(--blue), var(--orange));
+  padding: 2rem;
 }
 .subbutton {
-  color: var(--dark-gray);
-  border: 1px solid var(--dark-gray);
   display: inline-block;
-  margin: 0.1rem;
-  padding: 0.12rem;
-}
-.prefooter button a {
-  color: var(--dark-gray);
+  width: fit-content;
+  padding: 0.25rem;
+  margin: 0.2rem;
+  border: 1px solid var(--dark-gray);
+  border-radius: 1rem;
   text-decoration: none;
+  background: transparent;
+  color: var(--dark-gray);
   font-size: 0.8rem;
+  font-weight: 400;
 }
 
 /** This is Footer section **/
 .footer {
   position: relative;
   overflow: hidden;
-  color: var(--white);
+  color: var(--light-yellow);
   background-image: url(../img/forest-research.jpg);
   background-size: cover;
   background-position: center;
