@@ -304,15 +304,16 @@ blockquote {
   background-image: url(../img/forest-research.jpg);
   background-size: cover;
   background-position: center;
+  padding: 1rem;
 }
 
 .introduction--footer {
   display: grid;
-  grid-template-columns: 1fr 1.2fr;
-  padding: 2rem;
-  margin: 0 5rem;
+  grid-template-columns: 1fr 1.5fr;
+  padding: 1rem;
   position: relative;
-   color: var(--white);
+  font-size: 0.8rem;
+  line-height: 1.2rem;
 }
 .card--footer {
   display: grid;
@@ -323,42 +324,35 @@ blockquote {
 .card-3 {
   text-align: left;
 }
-.list__link a {
-  text-decoration: none;
-  color: var(--white);
-}
 .list__link ul {
   list-style-type: none;
+} 
+.list__link a {
+  text-decoration: none;
+  color: var(--light-yellow);
+  font-size: 0.7rem;
+  font-weight: 400; 
   font-family: var(--font-sans-serif);
-  font-size: 0.2rem;
-  line-height: 1.35;
-  font-weight: 300;
-  color: var(--white);
+  line-height: 1.8;
 }
 .footer h5 {
   font-size: 1rem;
   font-weight: 600;
+  line-height: 2;
 }
-
 .footer__nav-list {
   list-style: none;
-  padding: 0rem 2rem;
+  padding: 1rem 2rem 0 2rem;
   display: flex;
   font-family: var(--font-sans-serif);
   font-size: 0.6rem;
-  font-weight: 400;
-  justify-content: space-between;
+  font-weight: 500;
+  justify-content: space-around;
   align-items: center;
 }
-
 .footer__nav-list a {
   text-decoration: none;
-  padding: 0rem;
   font-family: var(--font-sans-serif);
   font-size: 0.6rem;
-  color: var(--white);
-}
-
-.component__img {
-  display: block;
+  color: var(--light-yellow);
 }
