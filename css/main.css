@@ -25,7 +25,7 @@ body {
   font-family: var(--font-sans-serif);
   font-size: 1rem;
   line-height: 1.2;
-  font-weight: 400;
+  font-weight: 300;
   max-width: 1500px;
   background-color: var(--light-yellow);
 }
@@ -38,18 +38,18 @@ h1, h2, h3, h4, h5 {
 
 h1 {
   font-size: 60px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 h2 {
   font-size: 25px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 h4 {
   font-size: 0.9rem;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 img {
@@ -71,7 +71,6 @@ img {
 
 .header img {
   margin: 0 0 0 2rem;
-  fill: var(--white);
 }
 
 .header__nav-list {
@@ -79,7 +78,7 @@ img {
   padding: 0;
   display: flex;
   font-family: var(--font-serif);
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .header__nav-list a {
@@ -90,12 +89,10 @@ img {
 }
 
 .hero {
-  color: var(--light-yellow);
   display: grid;
   grid-template-columns: 2fr 1fr;
   column-gap: 5rem;
   padding: 5rem;
-  font-size: 1rem;
   max-width: 130rem;
 }
 
@@ -114,14 +111,11 @@ img {
   border-radius: 1rem;
   padding: 10px 15px;
   text-decoration: none;
-  color: var(--white);
+  color: var(--light-yellow);
   background: transparent;
   margin:0 10px;
-  font-size: 18px;
-}
-.button a {
-  color: var(--white);
-  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 1px;
 }
 
 .button--orange {
@@ -138,48 +132,42 @@ img {
 .images--solution {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 2rem;
+  padding: 0 2rem;
   min-height: 600px;
   color: var(--light-yellow);
 }
-.images--solutions h2 {
-  font-size: 1.5rem;
+.sectionButton {
+  padding: 2rem 0;
+  margin-bottom: 1rem;
 }
 .solution_button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.solution_button {
+  display: block;
+  width: fit-content;
+  padding: 0.5rem;
+  margin: 0 auto;
   border: 1px solid var(--dark-gray);
   border-radius: 1rem;
-  padding: 0.8rem 1rem;
-  text-align: center;
   text-decoration: none;
   background: transparent;
   color: var(--dark-gray);
-  font-size: 1.8rem;
-  margin: 0 20rem;
+  font-size: 1rem;
+  font-weight: 600;
 }
 .solution button a {
   color: var(--dark-gray);
   text-decoration: none;
-  font-size: 1.6rem;
 }
 .energy-transition {
-  background-image: url(../img/windmill.png) ;
-  background-size: cover;
-  background-position: center;
+  background-image: url(../img/windmill.png);
+  padding: 1rem;
 }
 .nature-conservation {
-  background-image: url(../img/Lands-and-Oceans.png) ;
-  background-size: cover;
-  background-position: center;
+  background-image: url(../img/Lands-and-Oceans.png);
+  padding: 1rem;
 }
 .regenerative {
-  background-image: url(../img/ivan-bandura-square.png) ;
-  background-size: cover;
-  background-position: center;
+  background-image: url(../img/ivan-bandura-square.png);
+  padding: 1rem;
 }
 
 /** This is the Roadblock section **/
@@ -192,6 +180,7 @@ img {
 }
 .roadblock__grid-left {
   background-color: var(--green);
+  padding: 1rem;
 }
 .roadblock__grid-right {
   align-self: end;
@@ -199,6 +188,7 @@ img {
 .roadblock__grid-right h5, a {
   font-family: var(--font-serif);
   font-size: 1rem;
+  font-weight: 400;
   margin-bottom: 1rem;
 }
 
