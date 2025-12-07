@@ -56,6 +56,7 @@ img {
   display: block;
 }
 
+
 /** This is Header section **/
 .header-hero {
   background-image: url(../img/One-Earth-lands-and-ocean.png);
@@ -118,6 +119,12 @@ img {
   letter-spacing: 1px;
 }
 
+.button:hover {
+  background-color: var(--orange);
+  color: var(--white);
+  border: none;
+}
+
 .button--orange {
   background: var(--orange);
   border-radius: 0.5rem;
@@ -152,6 +159,11 @@ img {
   color: var(--dark-gray);
   font-size: 1rem;
   font-weight: 600;
+}
+.solution_button:hover {
+  background-color: var(--orange);
+  color: var(--white);
+  border: none;
 }
 .solution button a {
   color: var(--dark-gray);
@@ -228,7 +240,11 @@ img {
   font-size: 1rem;
   font-weight: 600;
 }
-
+.card--button:hover {
+  background-color: var(--orange);
+  color: var(--white);
+  border: none;
+}
 /** This is the Impact section **/
 .impact {
   background-image: url(../img/lines-blue.avif); 
@@ -294,6 +310,11 @@ blockquote {
   color: var(--dark-gray);
   font-size: 0.8rem;
   font-weight: 400;
+}
+.subbutton:hover {
+  background-color: var(--orange);
+  color: var(--white);
+  border: none;
 }
 
 /** This is Footer section **/
